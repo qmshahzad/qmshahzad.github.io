@@ -18,9 +18,15 @@ canvas {
 
 .profile-img {
   width: 140px;
+  height: 140px;
   border-radius: 50%;
   border: 3px solid #6ae3ff;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  margin: 0 auto;
 }
+
 
 .stats {
   display: flex;
