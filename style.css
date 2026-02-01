@@ -83,3 +83,71 @@ button {
   border: none;
   font-weight: bold;
 }
+.availability {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background: rgba(18,23,42,0.9);
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.availability .dot {
+  width: 10px;
+  height: 10px;
+  background: #4cff6a;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #4cff6a;
+}
+
+.headline {
+  max-width: 650px;
+  margin: 20px auto;
+  color: #b8bdd6;
+}
+
+.credibility {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 40px 0;
+}
+
+.credibility div {
+  text-align: center;
+}
+
+.credibility span {
+  font-size: 2.4rem;
+  font-weight: 700;
+  background: linear-gradient(135deg,#6ae3ff,#9b7bff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.credibility small {
+  display: block;
+  margin-top: 6px;
+  color: #9aa0bd;
+}
+
+.social a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 12px;
+  padding: 10px 16px;
+  border-radius: 30px;
+  background: #12172a;
+  color: #6ae3ff;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.social a:hover {
+  transform: translateY(-4px);
+}

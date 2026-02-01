@@ -1,13 +1,30 @@
 // Animated numbers
+// document.querySelectorAll('.count').forEach(el => {
+//   let target = +el.dataset.target;
+//   let current = 0;
+//   let interval = setInterval(() => {
+//     current++;
+//     el.textContent = current;
+//     if (current >= target) clearInterval(interval);
+//   }, 20);
+// });
 document.querySelectorAll('.count').forEach(el => {
-  let target = +el.dataset.target;
+  const target = +el.dataset.target;
   let current = 0;
-  let interval = setInterval(() => {
-    current++;
-    el.textContent = current;
-    if (current >= target) clearInterval(interval);
-  }, 20);
+  const increment = target / 60;
+
+  function update() {
+    current += increment;
+    if (current < target) {
+      el.textContent = Math.floor(current);
+      requestAnimationFrame(update);
+    } else {
+      el.textContent = target;
+    }
+  }
+  update();
 });
+
 
 // Neural network background
 const canvas = document.getElementById('neural-bg');
