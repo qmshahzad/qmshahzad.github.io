@@ -89,3 +89,69 @@ button {
   border: none;
   font-weight: bold;
 }
+
+.project-hero {
+  padding: 80px 10% 40px;
+}
+
+.project-hero h1 {
+  font-size: 2.6rem;
+}
+
+.back-link {
+  color: #6ae3ff;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.project-slider {
+  padding: 40px 10%;
+}
+
+.slides {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.slides img,
+.slides video {
+  width: 320px;
+  border-radius: 16px;
+  scroll-snap-align: center;
+}
+
+.project-details {
+  padding: 40px 10%;
+}
+
+.project-details ul {
+  margin-left: 20px;
+}
+
+.tech span {
+  display: inline-block;
+  background: #12172a;
+  padding: 8px 14px;
+  margin: 6px;
+  border-radius: 20px;
+}
+
+.links a {
+  display: inline-block;
+  margin: 10px 15px 0 0;
+  padding: 10px 16px;
+  background: #12172a;
+  border-radius: 30px;
+  color: #6ae3ff;
+  text-decoration: none;
+}
+
+.project-footer {
+  text-align: center;
+  padding: 30px;
+  color: #9aa0bd;
+}
+
