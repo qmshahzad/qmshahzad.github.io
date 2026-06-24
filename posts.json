@@ -22,5 +22,13 @@
     "date": "2026-06-24",
     "excerpt": "Anthropic has expanded its enterprise reach by deploying its next-generation artificial intelligence assistant directly inside Salesforce’s …",
     "body": "Anthropic has expanded its enterprise reach by deploying its next-generation artificial intelligence assistant directly inside Salesforce’s Slack workspace app. The feature allows the AI to collaborate natively with employees within group chats."
+  },
+  {
+    "slug": "jsontitle",
+    "title": "{{ $json.title }}",
+    "topic": "{{ $json.tags }}",
+    "date": "2026-06-24",
+    "excerpt": "{{ $json.body_text }}",
+    "body": "{{ $json.body_text }}"
   }
 ]
