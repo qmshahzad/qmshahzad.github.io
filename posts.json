@@ -14,5 +14,13 @@
     "date": "2026-06-17",
     "excerpt": "The best scripts are small, predictable, and easy to run.",
     "body": "The best scripts are small, predictable, and easy to run. Report generation, reminders, imports, exports, and cleanups are perfect places to save hours every week."
+  },
+  {
+    "slug": "anthropic-launches-claude-tag-inside-slack-app-ecosystem",
+    "title": "Anthropic Launches 'Claude Tag' Inside Slack App Ecosystem",
+    "topic": "ai, tech news ,",
+    "date": "2026-06-24",
+    "excerpt": "Anthropic has expanded its enterprise reach by deploying its next-generation artificial intelligence assistant directly inside Salesforce’s …",
+    "body": "Anthropic has expanded its enterprise reach by deploying its next-generation artificial intelligence assistant directly inside Salesforce’s Slack workspace app. The feature allows the AI to collaborate natively with employees within group chats."
   }
 ]
