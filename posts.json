@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "how-i-approach-flutter-app-architecture",
+    "title": "How I approach Flutter app architecture",
+    "topic": "Flutter",
+    "date": "2026-06-17",
+    "excerpt": "A reliable mobile app starts with clear boundaries: data, domain logic, UI, and services should each have a focused job.",
+    "body": "A reliable mobile app starts with clear boundaries: data, domain logic, UI, and services should each have a focused job. This keeps features easier to test, ship, and maintain."
+  },
+  {
+    "slug": "automation-scripts-that-remove-repeated-admin-work",
+    "title": "Automation scripts that remove repeated admin work",
+    "topic": "Automation",
+    "date": "2026-06-17",
+    "excerpt": "The best scripts are small, predictable, and easy to run.",
+    "body": "The best scripts are small, predictable, and easy to run. Report generation, reminders, imports, exports, and cleanups are perfect places to save hours every week."
+  }
+]

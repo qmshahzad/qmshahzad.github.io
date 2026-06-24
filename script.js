@@ -4,6 +4,34 @@ const storageKeys = {
   blogs: 'sq_blogs'
 };
 
+async function renderBlogs() {
+  const list = document.getElementById('blog-list');
+  if (!list) return;
+
+  try {
+    const response = await fetch('posts.json', { cache: 'no-store' });
+    const blogs = await response.json();
+
+    list.innerHTML = blogs
+      .slice()
+      .reverse()
+      .map(blog => `
+        <article class="blog-card">
+          <div class="blog-meta">
+            <span>${escapeHtml(blog.topic)}</span>
+            <span>${blog.date}</span>
+          </div>
+          <h3>${escapeHtml(blog.title)}</h3>
+          <p>${escapeHtml(blog.excerpt || blog.body)}</p>
+          <a href="blog/${blog.slug}.html">Read article <i class="fas fa-arrow-right"></i></a>
+        </article>
+      `)
+      .join('');
+  } catch (error) {
+    list.innerHTML = '<p>Articles are loading…</p>';
+  }
+}
+
 const starterBlogs = [
   {
     title: 'How I approach Flutter app architecture',
@@ -179,7 +207,7 @@ function updateAuthStatus() {
   status.textContent = user ? `Publishing as ${user.name}` : 'Login required';
 }
 
-function renderBlogs() {
+function renderBlogs1() {
   const list = document.getElementById('blog-list');
   if (!list) return;
 
