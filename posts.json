@@ -30,5 +30,13 @@
     "date": "2026-06-24",
     "excerpt": "{{ $json.body_text }}",
     "body": "{{ $json.body_text }}"
+  },
+  {
+    "slug": "mark-zuckerberg-plans-to-launch-built-in-prediction-markets-app",
+    "title": "Mark Zuckerberg Plans to Launch Built-in Prediction Markets App",
+    "topic": "ui, ai, automation, n8n , mobile app developer",
+    "date": "2026-06-25",
+    "excerpt": "Internal leaks confirm that Meta CEO Mark Zuckerberg has instructed development teams to build and scale a dedicated prediction markets app.…",
+    "body": "Internal leaks confirm that Meta CEO Mark Zuckerberg has instructed development teams to build and scale a dedicated prediction markets app. The move expands Meta's social infrastructure into real-time speculative and public estimation arenas."
   }
 ]
