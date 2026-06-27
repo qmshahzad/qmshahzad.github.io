@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>n8n Multi-Platform Publishing Automation | Shahzad Qamar</title>
+<meta name="description" content="Case study: a single n8n workflow that auto-publishes content across 10+ platforms — WordPress, Substack, Patreon, Medium, Dev.to, Blogger, Wix, GitHub Pages, and Buffer — built by reverse-engineering undocumented APIs where no public API existed.">
+<meta name="keywords" content="n8n automation, workflow automation, API integration, OAuth2, REST API, GraphQL API, content automation, multi-platform publishing, WordPress automation, Medium API, Substack automation, GitHub API automation, no-code automation, browser session automation, reverse engineering APIs, social media automation, Buffer API, MCP integration, freelance automation developer">
+<link rel="canonical" href="https://qmshahzad.github.io/projects/n8n-automation.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="n8n Multi-Platform Publishing Automation | Shahzad Qamar">
+<meta property="og:description" content="A single trigger that publishes content across 10+ blogging and social platforms — built by reverse-engineering APIs that don't officially exist.">
+<meta property="og:url" content="https://qmshahzad.github.io/projects/n8n-automation.html">
+<meta property="og:image" content="https://qmshahzad.github.io/assets/n8n-automation-cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="n8n Multi-Platform Publishing Automation">
+<meta name="twitter:description" content="A single trigger that publishes content across 10+ blogging and social platforms — built by reverse-engineering APIs that don't officially exist.">
+<meta name="twitter:image" content="https://qmshahzad.github.io/assets/n8n-automation-cover.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "n8n Multi-Platform Publishing Automation",
+  "description": "A single n8n workflow that auto-publishes content across 10+ blogging and social platforms, built by reverse-engineering undocumented APIs where no public API existed.",
+  "creator": {
+    "@type": "Person",
+    "name": "Shahzad Qamar",
+    "url": "https://qmshahzad.github.io"
+  },
+  "dateCreated": "2026-06",
+  "keywords": "n8n, workflow automation, API integration, OAuth2, REST API, content automation"
+}
+</script>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+.case-section {
+  padding: 0 clamp(18px, 8vw, 110px) 76px;
+  max-width: 980px;
+}
+
+.case-section h2 {
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
+  margin: 0 0 16px;
+  letter-spacing: 0;
+}
+
+.case-section p {
+  color: var(--muted);
+  margin: 0 0 18px;
+  max-width: 760px;
+}
+
+.case-section ul {
+  margin: 0 0 18px;
+  padding-left: 20px;
+  color: var(--muted);
+  max-width: 760px;
+}
+
+.case-section li {
+  margin-bottom: 10px;
+}
+
+.case-section li strong {
+  color: var(--ink);
+}
+
+.meta-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 18px 0 38px;
+}
+
+.meta-bar span {
+  padding: 7px 13px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(245, 240, 232, 0.05);
+  color: var(--gold);
+  font-size: 0.84rem;
+  font-weight: 800;
+}
+
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 28px 0 40px;
+}
+
+.approach-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(23, 27, 34, 0.72);
+  padding: 18px;
+}
+
+.approach-card .tag {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.approach-card.cyan .tag { background: rgba(99, 214, 209, 0.16); color: var(--cyan); }
+.approach-card.coral .tag { background: rgba(238, 127, 102, 0.16); color: var(--coral); }
+.approach-card.green .tag { background: rgba(143, 209, 106, 0.16); color: var(--green); }
+
+.approach-card h3 {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+}
+
+.approach-card p {
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+.platform-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.platform-pills span {
+  padding: 4px 9px;
+  border-radius: 8px;
+  background: rgba(245, 240, 232, 0.06);
+  border: 1px solid var(--line);
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.stack-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+
+.stack-row span {
+  padding: 8px 13px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: rgba(245, 240, 232, 0.05);
+  font-size: 0.86rem;
+  color: var(--ink);
+}
+
+.result-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin: 24px 0 44px;
+}
+
+.result-stats div {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(245, 240, 232, 0.04);
+  padding: 18px 12px;
+  text-align: center;
+}
+
+.result-stats strong {
+  display: block;
+  font-size: 1.7rem;
+  color: var(--cyan);
+  margin-bottom: 4px;
+}
+
+.result-stats span {
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+blockquote.callout {
+  margin: 0 0 40px;
+  padding: 20px 22px;
+  border-left: 3px solid var(--gold);
+  background: rgba(240, 191, 95, 0.06);
+  border-radius: 0 8px 8px 0;
+  color: var(--ink);
+  font-size: 1.02rem;
+}
+
+blockquote.callout p {
+  color: var(--ink);
+  margin: 0;
+}
+
+@media (max-width: 980px) {
+  .approach-grid {
+    grid-template-columns: 1fr;
+  }
+  .result-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+</style>
+</head>
+
+<body>
+<canvas id="neural-bg" aria-hidden="true"></canvas>
+
+<section class="project-hero">
+  <a href="../index.html#projects" class="back-link">
+    <i class="fas fa-arrow-left"></i> Back to Profile
+  </a>
+
+  <h1>Multi-Platform Publishing Automation with n8n</h1>
+  <p>
+    One workflow, one trigger, ten-plus destinations. A single piece of content goes out
+    to WordPress, Substack, Patreon, Medium, Dev.to, Blogger, Wix, GitHub Pages, and Buffer —
+    built by finding a working path into each platform, documented or not.
+  </p>
+
+  <div class="meta-bar">
+    <span><i class="fas fa-layer-group"></i> 10+ integrations</span>
+    <span><i class="fas fa-code"></i> n8n, Node.js, REST/GraphQL</span>
+    <span><i class="fas fa-clock"></i> Single build session</span>
+    <span><i class="fas fa-shield-halved"></i> Error-isolated by design</span>
+  </div>
+</section>
+
+<article class="case-section">
+
+  <h2>The problem</h2>
+  <p>
+    A content creator writing one article wants it live on every platform their audience uses —
+    a real blog, a newsletter, a membership page, a dev community, and a social queue — without
+    manually re-pasting it ten times. The catch: most of these platforms either have no public
+    API at all, or an API that only does part of the job (drafts, but not publishing; reading,
+    but not writing).
+  </p>
+  <p>
+    The job wasn't "call an API." It was figuring out, platform by platform, whether an API
+    existed, what it could actually do, and what to build when it couldn't.
+  </p>
+
+  <h2>Three approaches, by necessity</h2>
+  <div class="approach-grid">
+    <div class="approach-card cyan">
+      <span class="tag">Official APIs</span>
+      <h3>Documented, OAuth2 or API key</h3>
+      <p>Clean integrations against each platform's real REST or GraphQL API, with proper token refresh so nothing needs manual re-authorization later.</p>
+      <div class="platform-pills">
+        <span>WordPress.com</span><span>Blogger</span><span>Dev.to</span><span>Wix</span><span>HubSpot</span>
+      </div>
+    </div>
+    <div class="approach-card coral">
+      <span class="tag">Reverse-engineered</span>
+      <h3>No public posting API exists</h3>
+      <p>Captured and replicated the platform's own internal browser-to-server calls — including CSRF tokens and Medium's operational-transform content format — built purely from network traffic, with no documentation to follow.</p>
+      <div class="platform-pills">
+        <span>Substack</span><span>Patreon</span><span>Medium</span>
+      </div>
+    </div>
+    <div class="approach-card green">
+      <span class="tag">Built from scratch</span>
+      <h3>No CMS, no backend at all</h3>
+      <p>Designed a lightweight JSON-based blog data layer for a static GitHub Pages site, plus an automated commit pipeline — and connected Buffer's MCP server for social scheduling.</p>
+      <div class="platform-pills">
+        <span>GitHub Pages</span><span>Buffer / Threads</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>What actually had to be solved</h2>
+  <ul>
+    <li><strong>Authentication wasn't one thing.</strong> Seven different auth models across the project: OAuth2 with refresh tokens, app-level API keys, session cookies, CSRF token pairing, and GitHub's app-installation model. Each platform needed its own credential strategy in n8n, not a copy-pasted pattern.</li>
+    <li><strong>Undocumented protocols had to be read from raw traffic.</strong> Medium's content format isn't JSON-with-named-fields — it's a sequence of insert/move/update operations tracking a revision counter. There's no public spec; the only way to learn it was to make a real edit, watch the network request it produced, and infer the rules from the diff.</li>
+    <li><strong>The same error message meant different things on different platforms.</strong> A "missing post owner" error on Wix needed a member ID attached to the request. A near-identical authentication failure on a different platform meant the session had simply expired. Diagnosing each one correctly meant not assuming the fix that worked last time would work again.</li>
+    <li><strong>One static site had no backend to call at all.</strong> The GitHub Pages portfolio blog wasn't missing an API key — it was missing a CMS, full stop. The fix was building one: a single JSON file as the data layer, read by the existing page's JavaScript, written to by n8n committing files directly through GitHub's API. No database, no hosting cost, fully version-controlled.</li>
+    <li><strong>A failure on one platform couldn't take down the rest.</strong> With this many destinations, one platform timing out or rejecting a request needed to be a logged, recoverable event — not a reason the other nine never got their post. The workflow isolates failures per platform and reports a clean summary at the end.</li>
+  </ul>
+
+  <blockquote class="callout">
+    <p>
+      Most of the actual work in automation isn't calling a documented endpoint — it's
+      figuring out what to do when the documentation doesn't exist, the API does half the job,
+      or there's no API to begin with.
+    </p>
+  </blockquote>
+
+  <h2>Result</h2>
+  <div class="result-stats">
+    <div><strong>10+</strong><span>Platforms publishing from one trigger</span></div>
+    <div><strong>3</strong><span>Distinct integration strategies</span></div>
+    <div><strong>0</strong><span>Manual copy-paste steps</span></div>
+    <div><strong>1</strong><span>Workflow to maintain going forward</span></div>
+  </div>
+
+  <h2>Tools &amp; technologies</h2>
+  <div class="stack-row">
+    <span>n8n (self-hosted)</span>
+    <span>Node.js / JavaScript</span>
+    <span>REST &amp; GraphQL APIs</span>
+    <span>OAuth 2.0</span>
+    <span>GitHub REST API</span>
+    <span>MCP (Model Context Protocol)</span>
+    <span>JSON content modeling</span>
+    <span>Browser network analysis</span>
+  </div>
+
+  <h2>What this is good evidence of</h2>
+  <p>
+    Real client automation work rarely arrives as a clean, documented integration. It arrives
+    as "make this work with the tool we already use" — and the tool's API is often incomplete,
+    undocumented, or nonexistent. This project is a working example of diagnosing that gap
+    accurately on ten separate platforms and building the right kind of fix for each one,
+    rather than forcing one technique to fit everything.
+  </p>
+
+  <div class="links">
+    <a href="../index.html#contact"><i class="fas fa-envelope"></i> Discuss a similar automation</a>
+    <a href="../index.html#projects"><i class="fas fa-layer-group"></i> More projects</a>
+  </div>
+
+</article>
+
+<footer class="project-footer">
+  © 2026 Shahzad Qamar
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>
