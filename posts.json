@@ -158,5 +158,13 @@
     "date": "2026-08-18",
     "excerpt": "AI agent workflows are shifting enterprise spending. Gartner predicts AI inference costs per agentic workflow will increase more than 5x thr…",
     "body": "AI agent workflows are shifting enterprise spending. Gartner predicts AI inference costs per agentic workflow will increase more than 5x through 2028 as systems shift from basic LLM prompts to continuous, autonomous loop reasoning. CIOs must prepare infrastructure budgets for this scaling challenge."
+  },
+  {
+    "slug": "nvidia-invests-15-billion-in-softbank-ai-data-center-project",
+    "title": "Nvidia Invests $1.5 Billion in SoftBank AI Data Center Project",
+    "topic": "Nvidia, SoftBank, AI Infrastructure, Hardware, Data Centers",
+    "date": "2026-08-18",
+    "excerpt": "Nvidia continues to solidify its infrastructure control by investing $1.5 billion into SoftBank's dedicated data center developments. The pa…",
+    "body": "Nvidia continues to solidify its infrastructure control by investing $1.5 billion into SoftBank's dedicated data center developments. The partnership aims to build massive physical GPU capacity tailored specifically for complex AI reasoning clusters and enterprise demands."
   }
 ]
