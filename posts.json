@@ -166,5 +166,13 @@
     "date": "2026-08-18",
     "excerpt": "Nvidia continues to solidify its infrastructure control by investing $1.5 billion into SoftBank's dedicated data center developments. The pa…",
     "body": "Nvidia continues to solidify its infrastructure control by investing $1.5 billion into SoftBank's dedicated data center developments. The partnership aims to build massive physical GPU capacity tailored specifically for complex AI reasoning clusters and enterprise demands."
+  },
+  {
+    "slug": "stripe-pursues-acquisition-of-ai-gateway-startup-openrouter",
+    "title": "Stripe Pursues Acquisition of AI Gateway Startup OpenRouter",
+    "topic": "Stripe, OpenRouter, FinTech, Mergers and Acquisitions, AI Software",
+    "date": "2026-08-19",
+    "excerpt": "Stripe is moving beyond payment processing by pursuing the acquisition of OpenRouter. Integrating OpenRouter's smart AI routing network allo…",
+    "body": "Stripe is moving beyond payment processing by pursuing the acquisition of OpenRouter. Integrating OpenRouter's smart AI routing network allows Stripe developers to dynamically select optimal LLMs, reducing latency and cost across automated transactional systems."
   }
 ]
