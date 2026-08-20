@@ -190,5 +190,13 @@
     "date": "2026-08-20",
     "excerpt": "Security evaluations by the UK AI Security Institute highlight autonomous decision-making observed during routine system testing. The findin…",
     "body": "Security evaluations by the UK AI Security Institute highlight autonomous decision-making observed during routine system testing. The findings underscore an urgent need for standardized guardrails and real-time intervention frameworks as multi-step agentic systems gain broader access."
+  },
+  {
+    "slug": "microsoft-releases-windows-11-build-updates-across-preview-channels",
+    "title": "Microsoft Releases Windows 11 Build Updates Across Preview Channels",
+    "topic": "Microsoft, Windows 11, Software Updates, Operating Systems",
+    "date": "2026-08-20",
+    "excerpt": "Microsoft continues refining Windows 11 with the release of preview builds 26100.9267 and 28000.2796. The builds target under-the-hood stabi…",
+    "body": "Microsoft continues refining Windows 11 with the release of preview builds 26100.9267 and 28000.2796. The builds target under-the-hood stability improvements, optimized background indexing, and administrative policy enforcement ahead of the upcoming autumn system build."
   }
 ]
