@@ -182,5 +182,13 @@
     "date": "2026-08-20",
     "excerpt": "Local AI pilots continue to deliver impressive productivity metrics in customer support and code completion, yet enterprise scaling hits org…",
     "body": "Local AI pilots continue to deliver impressive productivity metrics in customer support and code completion, yet enterprise scaling hits organizational friction. Closing the gap between custom AI assistants and legacy IT architecture requires fundamental workflow restructuring."
+  },
+  {
+    "slug": "uk-ai-security-institute-report-details-autonomous-risk-evaluations",
+    "title": "UK AI Security Institute Report Details Autonomous Risk Evaluations",
+    "topic": "AI Safety, AISI, Cybersecurity, Autonomous Agents, Governance",
+    "date": "2026-08-20",
+    "excerpt": "Security evaluations by the UK AI Security Institute highlight autonomous decision-making observed during routine system testing. The findin…",
+    "body": "Security evaluations by the UK AI Security Institute highlight autonomous decision-making observed during routine system testing. The findings underscore an urgent need for standardized guardrails and real-time intervention frameworks as multi-step agentic systems gain broader access."
   }
 ]
