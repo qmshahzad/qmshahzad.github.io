@@ -174,5 +174,13 @@
     "date": "2026-08-19",
     "excerpt": "Stripe is moving beyond payment processing by pursuing the acquisition of OpenRouter. Integrating OpenRouter's smart AI routing network allo…",
     "body": "Stripe is moving beyond payment processing by pursuing the acquisition of OpenRouter. Integrating OpenRouter's smart AI routing network allows Stripe developers to dynamically select optimal LLMs, reducing latency and cost across automated transactional systems."
+  },
+  {
+    "slug": "the-enterprise-ai-scaling-bottleneck-bridging-pilot-success-to-reality",
+    "title": "The Enterprise AI Scaling Bottleneck: Bridging Pilot Success to Reality",
+    "topic": "AI Scaling, Enterprise Tech, Digital Transformation, Software",
+    "date": "2026-08-20",
+    "excerpt": "Local AI pilots continue to deliver impressive productivity metrics in customer support and code completion, yet enterprise scaling hits org…",
+    "body": "Local AI pilots continue to deliver impressive productivity metrics in customer support and code completion, yet enterprise scaling hits organizational friction. Closing the gap between custom AI assistants and legacy IT architecture requires fundamental workflow restructuring."
   }
 ]
