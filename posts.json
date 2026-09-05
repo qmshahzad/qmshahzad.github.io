@@ -350,5 +350,13 @@
     "date": "2026-09-05",
     "excerpt": "NVIDIA is showing new software for running AI agents locally on RTX and DGX hardware. Its PAIR technology can coordinate multiple computers …",
     "body": "NVIDIA is showing new software for running AI agents locally on RTX and DGX hardware. Its PAIR technology can coordinate multiple computers so they work together on larger AI tasks. #NVIDIA #AIAgents #EdgeAI"
+  },
+  {
+    "slug": "adobe-acquires-ai-startup-rilo",
+    "title": "Adobe Acquires AI Startup Rilo",
+    "topic": "Adobe, Rilo, AI automation, agentic AI, marketing AI",
+    "date": "2026-09-05",
+    "excerpt": "Adobe has acquired Indian AI automation startup Rilo as it expands its push into agentic marketing. Rilo builds AI-powered workflows that al…",
+    "body": "Adobe has acquired Indian AI automation startup Rilo as it expands its push into agentic marketing. Rilo builds AI-powered workflows that allow marketing teams to automate complex tasks using natural language. #Adobe #RiloAI #AgenticAI"
   }
 ]
