@@ -342,5 +342,13 @@
     "date": "2026-09-05",
     "excerpt": "NVIDIA says the first Windows PCs powered by its RTX Spark platform will launch in October from Lenovo and Acer. The technology is designed …",
     "body": "NVIDIA says the first Windows PCs powered by its RTX Spark platform will launch in October from Lenovo and Acer. The technology is designed to run powerful AI workloads locally instead of relying entirely on cloud computing. #NVIDIA #RTXSpark #LocalAI"
+  },
+  {
+    "slug": "nvidia-introduces-new-local-ai-agent-tools",
+    "title": "NVIDIA Introduces New Local AI Agent Tools",
+    "topic": "NVIDIA PAIR, AI agents, local AI, RTX, edge computing",
+    "date": "2026-09-05",
+    "excerpt": "NVIDIA is showing new software for running AI agents locally on RTX and DGX hardware. Its PAIR technology can coordinate multiple computers …",
+    "body": "NVIDIA is showing new software for running AI agents locally on RTX and DGX hardware. Its PAIR technology can coordinate multiple computers so they work together on larger AI tasks. #NVIDIA #AIAgents #EdgeAI"
   }
 ]
