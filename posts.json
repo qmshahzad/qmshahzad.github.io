@@ -334,5 +334,13 @@
     "date": "2026-09-04",
     "excerpt": "OpenAI says its upcoming Astra model has become its first model to reach the company's critical cybersecurity capability threshold. OpenAI s…",
     "body": "OpenAI says its upcoming Astra model has become its first model to reach the company's critical cybersecurity capability threshold. OpenAI says it is preparing Astra for release while applying additional safeguards. #OpenAI #AstraAI #AISafety"
+  },
+  {
+    "slug": "nvidia-rtx-spark-ai-pcs-arrive-in-october",
+    "title": "NVIDIA RTX Spark AI PCs Arrive in October",
+    "topic": "NVIDIA, RTX Spark, N1X, AI PC, Lenovo, Acer, local AI",
+    "date": "2026-09-05",
+    "excerpt": "NVIDIA says the first Windows PCs powered by its RTX Spark platform will launch in October from Lenovo and Acer. The technology is designed …",
+    "body": "NVIDIA says the first Windows PCs powered by its RTX Spark platform will launch in October from Lenovo and Acer. The technology is designed to run powerful AI workloads locally instead of relying entirely on cloud computing. #NVIDIA #RTXSpark #LocalAI"
   }
 ]
