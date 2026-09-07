@@ -23,7 +23,7 @@ async function renderBlogs() {
           </div>
           <h3>${escapeHtml(blog.title)}</h3>
           <p>${escapeHtml(blog.excerpt || blog.body)}</p>
-          <a href="blog/${blog.slug}.html">Read article <i class="fas fa-arrow-right"></i></a>
+          <a class="blog-card-link" href="blog/${blog.slug}.html">Read article <i class="fas fa-arrow-right"></i></a>
         </article>
       `)
       .join('');
@@ -277,4 +277,4 @@ initBackground();
 initAuth();
 updateAuthStatus();
 renderBlogs();
-initPublisher();
+// initPublisher();
