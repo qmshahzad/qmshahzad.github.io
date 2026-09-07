@@ -1,0 +1,23 @@
+# Shahzad Qamar
+
+Senior Mobile App Developer for iOS, Flutter, Firebase, BLE/NFC apps, WebKit integrations, EU app compliance support, Fiverr verification support, and n8n automations for mobile product teams.
+
+## Key Pages
+
+- Hire Me: https://qmshahzad.github.io/hire-me.html
+- Portfolio Home: https://qmshahzad.github.io/
+- Farm Management Case Study: https://qmshahzad.github.io/projects/farm-management.html
+- FocusPin Habit Tracker Case Study: https://qmshahzad.github.io/projects/focuspin.html
+
+## Services
+
+- BLE/NFC iOS and Flutter apps
+- Firebase backends with Auth, Firestore, Storage, Cloud Functions, analytics, and push notifications
+- n8n automations for mobile app workflows, reports, reminders, leads, and support operations
+- WebKit integrations and App Store review fixes
+- EU compliance and marketplace verification support
+
+## Contact
+
+- Book a 15-minute call: https://calendly.com/qmshahzad/15min
+- Fiverr: https://www.fiverr.com/s/ljWlpqg

@@ -506,6 +506,223 @@ select:focus {
   font-weight: 800;
 }
 
+.hire-hero {
+  min-height: 86vh;
+  display: grid;
+  grid-template-columns: minmax(0, 1.06fr) minmax(300px, 0.54fr);
+  gap: clamp(24px, 5vw, 68px);
+  align-items: center;
+  padding: clamp(64px, 8vw, 108px) clamp(18px, 8vw, 110px) 60px;
+}
+
+.hire-hero h1 {
+  max-width: 940px;
+  margin: 0;
+  font-size: clamp(2.35rem, 5.5vw, 5.2rem);
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.hire-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 22px 0 24px;
+}
+
+.hire-badges span,
+.proof-card,
+.hire-profile-card,
+.process-grid article {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(23, 27, 34, 0.74);
+}
+
+.hire-badges span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 12px;
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.hire-badges i {
+  color: var(--green);
+}
+
+.cta-note {
+  max-width: 650px;
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: 0.96rem;
+}
+
+.hire-profile-card {
+  padding: 20px;
+  box-shadow: var(--shadow);
+}
+
+.hire-profile-card img {
+  width: 100%;
+  max-height: 320px;
+  aspect-ratio: 4 / 5;
+  display: block;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+}
+
+.hire-profile-card h2 {
+  margin: 16px 0 2px;
+  font-size: 1.6rem;
+}
+
+.hire-profile-card p,
+.hire-profile-card dd {
+  color: var(--muted);
+}
+
+.hire-profile-card dl {
+  margin: 18px 0 0;
+  display: grid;
+  gap: 10px;
+}
+
+.hire-profile-card dl div {
+  padding: 12px;
+  border-radius: 8px;
+  background: rgba(245, 240, 232, 0.05);
+}
+
+.hire-profile-card dt {
+  color: var(--gold);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.hire-profile-card dd {
+  margin: 2px 0 0;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.service-list article {
+  min-height: 260px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(23, 27, 34, 0.76);
+}
+
+.service-list i,
+.proof-card i {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  color: #101318;
+  background: var(--cyan);
+}
+
+.service-list article:nth-child(2) i,
+.proof-card:nth-child(2) i {
+  background: var(--green);
+}
+
+.service-list article:nth-child(3) i,
+.proof-card:nth-child(3) i {
+  background: var(--gold);
+}
+
+.service-list article:nth-child(4) i {
+  background: var(--coral);
+}
+
+.service-list h3,
+.proof-card span,
+.process-grid h3 {
+  margin: 0 0 8px;
+  line-height: 1.2;
+}
+
+.service-list p,
+.proof-card small,
+.process-grid p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.proof-grid,
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.proof-card {
+  min-height: 190px;
+  padding: 18px;
+  color: var(--ink);
+  text-decoration: none;
+  transition: transform 180ms ease, border-color 180ms ease;
+}
+
+.proof-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(99, 214, 209, 0.5);
+}
+
+.proof-card span {
+  display: block;
+  font-size: 1.12rem;
+  font-weight: 900;
+}
+
+.proof-card small {
+  display: block;
+}
+
+.process-grid article {
+  padding: 20px;
+}
+
+.process-grid strong {
+  display: inline-grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  margin-bottom: 18px;
+  border-radius: 50%;
+  color: #101318;
+  background: linear-gradient(135deg, var(--cyan), var(--green));
+}
+
+.hire-final {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: center;
+  background: rgba(245, 240, 232, 0.04);
+  border-top: 1px solid var(--line);
+}
+
+.final-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -530,13 +747,18 @@ footer {
   }
 
   .hero,
+  .hire-hero,
   .split-section,
   .blog-layout,
-  .social-contact {
+  .social-contact,
+  .hire-final {
     grid-template-columns: 1fr;
   }
 
-  .project-grid {
+  .project-grid,
+  .service-list,
+  .proof-grid,
+  .process-grid {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -564,12 +786,25 @@ footer {
   .stats,
   .project-grid,
   .client-list,
-  .automation-grid {
+  .automation-grid,
+  .service-list,
+  .proof-grid,
+  .process-grid {
     grid-template-columns: 1fr;
   }
 
   .hero-actions {
     display: grid;
+  }
+
+  .hire-hero {
+    padding-top: 42px;
+  }
+
+  .hire-badges,
+  .final-cta {
+    display: grid;
+    justify-content: stretch;
   }
 
   .section {
