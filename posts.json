@@ -718,5 +718,13 @@
     "date": "2026-10-01",
     "excerpt": "Google’s Project Suncatcher is moving toward its first in-orbit test, with a prototype satellite intended to evaluate how Tensor Processing …",
     "body": "Google’s Project Suncatcher is moving toward its first in-orbit test, with a prototype satellite intended to evaluate how Tensor Processing Units perform under radiation, vibration and thermal conditions. Google says the longer-term research question is whether space could support scalable machine-learning infrastructure using abundant sunlight and satellite-to-satellite links. The upcoming test is experimental, not a commercial space data center, but it marks an unusual direction for AI infrastructure research. #Google #AIInfrastructure #SpaceTech"
+  },
+  {
+    "slug": "google-research-builds-a-multi-agent-ai-video-co-director",
+    "title": "Google Research Builds a Multi-Agent AI Video Co-Director",
+    "topic": "Google Research, AI video, Gemini, Veo, multi-agent, video generation, generative AI",
+    "date": "2026-10-02",
+    "excerpt": "Google Research introduced a multi-agent framework for generating longer AI video narratives while reducing identity drift, continuity probl…",
+    "body": "Google Research introduced a multi-agent framework for generating longer AI video narratives while reducing identity drift, continuity problems and cascading errors between shots. The system uses Gemini and Veo with planning and visual-refinement agents that treat long-form generation as a broader optimization problem rather than a chain of isolated prompts. The work is research-focused, but it points toward more automated workflows for creators producing multi-shot video. #GoogleAI #GenerativeAI #VideoAI"
   }
 ]
