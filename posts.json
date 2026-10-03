@@ -742,5 +742,13 @@
     "date": "2026-10-03",
     "excerpt": "At Meta Connect, the company introduced Ray-Ban Meta Audio and expanded its AI glasses lineup, continuing its push to make wearable devices …",
     "body": "At Meta Connect, the company introduced Ray-Ban Meta Audio and expanded its AI glasses lineup, continuing its push to make wearable devices a primary interface for AI. Meta described the new Audio glasses as its first camera-free audio glasses and also announced broader styles and capabilities for its smart-glasses portfolio. The announcements show how Meta is extending AI beyond phones and screens into everyday wearable computing. #Meta #SmartGlasses #WearableAI"
+  },
+  {
+    "slug": "apples-new-mac-mini-and-mac-studio-are-now-available",
+    "title": "Apple’s New Mac mini and Mac Studio Are Now Available",
+    "topic": "Apple, Mac mini, Mac Studio, M6, M5 Ultra, Apple silicon, on-device AI, developers",
+    "date": "2026-10-03",
+    "excerpt": "Apple’s latest Mac mini and Mac Studio became available on September 22, with new M6, M5 Pro, M5 Max and M5 Ultra configurations aimed at de…",
+    "body": "Apple’s latest Mac mini and Mac Studio became available on September 22, with new M6, M5 Pro, M5 Max and M5 Ultra configurations aimed at demanding computing and on-device AI workloads. Apple highlights Neural Accelerators, large unified-memory options and Thunderbolt 5, with Mac Studio configurations reaching up to 512GB of unified memory. The new desktops are positioned for developers, creators and AI users who want substantial local compute. #Apple #MacStudio #OnDeviceAI"
   }
 ]
