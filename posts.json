@@ -1006,5 +1006,13 @@
     "date": "2026-11-05",
     "excerpt": "Multi-Platform",
     "body": "Multi-Platform"
+  },
+  {
+    "slug": "openai-launches-gpt-6-cyber-with-critical-rating",
+    "title": "OpenAI Launches GPT-6 Cyber With Critical Rating",
+    "topic": "OpenAI, GPT-6 Cyber, cybersecurity, AI security, vulnerability research, penetration testing, Daybreak Red",
+    "date": "2026-11-06",
+    "excerpt": "OpenAI has launched GPT-6 Cyber, a cybersecurity-specialized model for approved vulnerability discovery, exploit development and penetration…",
+    "body": "OpenAI has launched GPT-6 Cyber, a cybersecurity-specialized model for approved vulnerability discovery, exploit development and penetration-testing work. It is rated Critical under OpenAI’s safety framework and is initially available through the restricted Daybreak Red program. The company says the model helped identify Firefox and Linux kernel vulnerabilities that were reported for patching. #OpenAI #Cybersecurity #AI"
   }
 ]
