@@ -1054,5 +1054,13 @@
     "date": "2026-11-07",
     "excerpt": "Anthropic has introduced new security and administration features for Claude Enterprise, including a security center, generally available in…",
     "body": "Anthropic has introduced new security and administration features for Claude Enterprise, including a security center, generally available inference hooks, centralized management and additional access controls. The update lets security teams route prompts and proposed tool calls through existing data-security tools, helping organizations apply data-loss-prevention policies while using AI agents. #Anthropic #Claude #Cybersecurity"
+  },
+  {
+    "slug": "ai-giants-back-shared-publisher-opt-out-for-ai-training",
+    "title": "AI Giants Back Shared Publisher Opt-Out for AI Training",
+    "topic": "AI training, robots.txt, publishers, OpenAI, Google, Microsoft, Anthropic, content licensing, web crawling",
+    "date": "2026-11-07",
+    "excerpt": "OpenAI, Google, Microsoft and Anthropic have pledged support for a shared robots.txt signal that lets publishers block AI training across pa…",
+    "body": "OpenAI, Google, Microsoft and Anthropic have pledged support for a shared robots.txt signal that lets publishers block AI training across participating companies with one rule. Anthropic has begun rolling it out, OpenAI plans implementation in coming months, and Google and Microsoft have indicated support beginning in 2027. The proposal could simplify content controls for publishers while leaving search visibility unaffected. #AI #Publishing #robots.txt"
   }
 ]
