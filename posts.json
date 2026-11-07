@@ -1038,5 +1038,13 @@
     "date": "2026-11-06",
     "excerpt": "Qualcomm shares fell after its fourth-quarter smartphone chip sales missed Wall Street estimates, with the company citing sluggish demand an…",
     "body": "Qualcomm shares fell after its fourth-quarter smartphone chip sales missed Wall Street estimates, with the company citing sluggish demand and lower Apple-related revenue. The result added pressure to an already uneasy semiconductor market and underscored continued softness in parts of the smartphone supply chain. Investors will watch whether premium AI-phone demand can offset weaker mainstream shipments. #Qualcomm #Smartphones #Semiconductors"
+  },
+  {
+    "slug": "meta-acquires-conductor-to-advance-ai-coding-agents",
+    "title": "Meta Acquires Conductor to Advance AI Coding Agents",
+    "topic": "Meta, Conductor, AI coding agents, developer tools, software development, acquisition, agentic coding",
+    "date": "2026-11-07",
+    "excerpt": "Meta has acquired Conductor, an AI coding startup whose platform lets developers run multiple coding agents in parallel, isolated workspaces…",
+    "body": "Meta has acquired Conductor, an AI coding startup whose platform lets developers run multiple coding agents in parallel, isolated workspaces. Meta confirmed the acquisition but did not disclose terms. Conductor’s cloud service is scheduled to shut down on November 20, while core local features are expected to continue into early 2027. The deal signals Meta’s growing interest in developer-focused, multi-agent AI tooling. #Meta #AICoding #Developers"
   }
 ]
