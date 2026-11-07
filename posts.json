@@ -1046,5 +1046,13 @@
     "date": "2026-11-07",
     "excerpt": "Meta has acquired Conductor, an AI coding startup whose platform lets developers run multiple coding agents in parallel, isolated workspaces…",
     "body": "Meta has acquired Conductor, an AI coding startup whose platform lets developers run multiple coding agents in parallel, isolated workspaces. Meta confirmed the acquisition but did not disclose terms. Conductor’s cloud service is scheduled to shut down on November 20, while core local features are expected to continue into early 2027. The deal signals Meta’s growing interest in developer-focused, multi-agent AI tooling. #Meta #AICoding #Developers"
+  },
+  {
+    "slug": "anthropic-strengthens-claude-enterprise-security-controls",
+    "title": "Anthropic Strengthens Claude Enterprise Security Controls",
+    "topic": "Anthropic, Claude Enterprise, AI security, inference hooks, data loss prevention, enterprise AI, admin controls",
+    "date": "2026-11-07",
+    "excerpt": "Anthropic has introduced new security and administration features for Claude Enterprise, including a security center, generally available in…",
+    "body": "Anthropic has introduced new security and administration features for Claude Enterprise, including a security center, generally available inference hooks, centralized management and additional access controls. The update lets security teams route prompts and proposed tool calls through existing data-security tools, helping organizations apply data-loss-prevention policies while using AI agents. #Anthropic #Claude #Cybersecurity"
   }
 ]
