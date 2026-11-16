@@ -1206,5 +1206,13 @@
     "date": "2026-11-16",
     "excerpt": "Google announced the TPU 8i Max and TPU 8tx, expanding its eighth-generation AI accelerator portfolio. The 8i Max is designed for memory-int…",
     "body": "Google announced the TPU 8i Max and TPU 8tx, expanding its eighth-generation AI accelerator portfolio. The 8i Max is designed for memory-intensive workloads, while the 8tx emphasizes security. Expected in 2027, the systems could offer enterprises more specialized alternatives to Nvidia-based AI infrastructure. #Google #TPU #AIInfrastructure"
+  },
+  {
+    "slug": "ai-provider-breach-exposes-uber-data",
+    "title": "AI Provider Breach Exposes Uber Data",
+    "topic": "Fireworks.ai, Uber, data breach, cybersecurity, third-party risk, AI infrastructure, data privacy",
+    "date": "2026-11-16",
+    "excerpt": "A reported breach at AI provider Fireworks.ai exposed driver’s-license information for at least 7,870 people in South Carolina, Massachusett…",
+    "body": "A reported breach at AI provider Fireworks.ai exposed driver’s-license information for at least 7,870 people in South Carolina, Massachusetts and Rhode Island. Attackers allegedly used stolen credentials to access Uber-related data, and Uber cut its connection to Fireworks. The incident shows how AI vendors can become a cybersecurity weak point. #Cybersecurity #DataBreach #AI"
   }
 ]
