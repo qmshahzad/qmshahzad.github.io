@@ -1190,5 +1190,13 @@
     "date": "2026-11-16",
     "excerpt": "OpenAI launched ChatGPT Wallet, allowing eligible U.S. ChatGPT Pro subscribers to authorize AI agents to make purchases. Built with American…",
     "body": "OpenAI launched ChatGPT Wallet, allowing eligible U.S. ChatGPT Pro subscribers to authorize AI agents to make purchases. Built with American Express, Mastercard and Visa, it uses payment tokens and requires biometric approval for each transaction. The feature signals a shift toward commerce performed by AI agents. #OpenAI #ChatGPT #AIAgents"
+  },
+  {
+    "slug": "microsoft-restores-outlook-and-teams",
+    "title": "Microsoft Restores Outlook and Teams",
+    "topic": "Microsoft, Outlook, Teams, outage, cloud services, Microsoft 365, Copilot",
+    "date": "2026-11-16",
+    "excerpt": "Microsoft says it has restored service after a global outage that disrupted Outlook and Teams for nearly two days. The incident underscores …",
+    "body": "Microsoft says it has restored service after a global outage that disrupted Outlook and Teams for nearly two days. The incident underscores the operational risk of concentrated cloud collaboration platforms. It also arrives as Microsoft changes Microsoft 365 Copilot resale arrangements, with add-on license sales ending December 1. #Microsoft #Cloud #Outage"
   }
 ]
