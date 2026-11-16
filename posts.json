@@ -1198,5 +1198,13 @@
     "date": "2026-11-16",
     "excerpt": "Microsoft says it has restored service after a global outage that disrupted Outlook and Teams for nearly two days. The incident underscores …",
     "body": "Microsoft says it has restored service after a global outage that disrupted Outlook and Teams for nearly two days. The incident underscores the operational risk of concentrated cloud collaboration platforms. It also arrives as Microsoft changes Microsoft 365 Copilot resale arrangements, with add-on license sales ending December 1. #Microsoft #Cloud #Outage"
+  },
+  {
+    "slug": "google-expands-its-ai-chip-lineup",
+    "title": "Google Expands Its AI Chip Lineup",
+    "topic": "Google, TPU, TPU 8i Max, TPU 8tx, AI chips, cloud computing, AI infrastructure",
+    "date": "2026-11-16",
+    "excerpt": "Google announced the TPU 8i Max and TPU 8tx, expanding its eighth-generation AI accelerator portfolio. The 8i Max is designed for memory-int…",
+    "body": "Google announced the TPU 8i Max and TPU 8tx, expanding its eighth-generation AI accelerator portfolio. The 8i Max is designed for memory-intensive workloads, while the 8tx emphasizes security. Expected in 2027, the systems could offer enterprises more specialized alternatives to Nvidia-based AI infrastructure. #Google #TPU #AIInfrastructure"
   }
 ]
