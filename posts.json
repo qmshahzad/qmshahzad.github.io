@@ -1182,5 +1182,13 @@
     "date": "2026-11-15",
     "excerpt": "SpaceX’s Starship returned from a 22-hour orbital mission and was caught by the launch tower’s mechanical arms at Starbase, Texas. The upper…",
     "body": "SpaceX’s Starship returned from a 22-hour orbital mission and was caught by the launch tower’s mechanical arms at Starbase, Texas. The upper stage deployed 26 Starlink satellites and completed 14 orbits. The Super Heavy booster was not recovered, leaving full two-stage reusability as the next milestone. #SpaceX #Starship #SpaceTechnology"
+  },
+  {
+    "slug": "openai-adds-wallet-for-ai-agents",
+    "title": "OpenAI Adds Wallet for AI Agents",
+    "topic": "OpenAI, ChatGPT Wallet, AI agents, payments, fintech, ChatGPT Pro, digital payments",
+    "date": "2026-11-16",
+    "excerpt": "OpenAI launched ChatGPT Wallet, allowing eligible U.S. ChatGPT Pro subscribers to authorize AI agents to make purchases. Built with American…",
+    "body": "OpenAI launched ChatGPT Wallet, allowing eligible U.S. ChatGPT Pro subscribers to authorize AI agents to make purchases. Built with American Express, Mastercard and Visa, it uses payment tokens and requires biometric approval for each transaction. The feature signals a shift toward commerce performed by AI agents. #OpenAI #ChatGPT #AIAgents"
   }
 ]
