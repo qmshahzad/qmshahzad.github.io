@@ -1214,5 +1214,13 @@
     "date": "2026-11-16",
     "excerpt": "A reported breach at AI provider Fireworks.ai exposed driver’s-license information for at least 7,870 people in South Carolina, Massachusett…",
     "body": "A reported breach at AI provider Fireworks.ai exposed driver’s-license information for at least 7,870 people in South Carolina, Massachusetts and Rhode Island. Attackers allegedly used stolen credentials to access Uber-related data, and Uber cut its connection to Fireworks. The incident shows how AI vendors can become a cybersecurity weak point. #Cybersecurity #DataBreach #AI"
+  },
+  {
+    "slug": "faa-expands-ai-flight-routing",
+    "title": "FAA Expands AI Flight Routing",
+    "topic": "FAA, SMART, AI routing, aviation, air traffic, fuel efficiency, flight optimization",
+    "date": "2026-11-17",
+    "excerpt": "The FAA is expanding its SMART AI routing system nationwide after a Washington-area pilot program. The system reportedly rerouted 180 flight…",
+    "body": "The FAA is expanding its SMART AI routing system nationwide after a Washington-area pilot program. The system reportedly rerouted 180 flights, saving an average of 10 minutes and nearly 80 gallons of fuel per flight. It is an early example of AI being used to optimize critical transportation infrastructure. #Aviation #AI #FAA"
   }
 ]
